@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="module" src="./js/bundles.js" defer></script>
-    <script type="module" src="./js/components/app.js" defer></script>
-    <link rel="stylesheet" href="./scss/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="./assets/js/bundles.js" defer></script>
+    <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Harry Potter API app</title>
-</head>
-<body>
-    <button id="btnSpell"></button>
-</body>
+  </head>
+  <body>
+    <main>
+      <section class="section-container">
+        <img class="img-container" id="imgContainer" src="" alt="" />
+        <h3 id="titleContainer"></h3>
+        <p id="contentContainer"></p>   
+      </section>
+
+      <div class="buttons">
+        <button id="btnSpell">Random Spell</button>
+        <button id="btnHouse">Random House</button>
+        <button id="btnBook">Random Book</button>
+        <button id="btnCharacter">Random Character</button>
+      </div>
+      <!-- <img src="assets/img/01.jpg" alt=""> -->
+    </main>
+  </body>
 </html>
